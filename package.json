@@ -9,6 +9,10 @@
     "build": "npm run browserify ",
     "start": "npm install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smooth-opperator/react-tweets"
+  },
   "author": "Ken Wheeler",
   "license": "MIT",
   "dependencies": {
@@ -16,7 +20,7 @@
     "express-handlebars": "~1.1.0",
     "mongoose": "^4.2.6",
     "node-jsx": "~0.12.4",
-    "react": "~0.14.6",
+    "react": "^0.14.8",
     "socket.io": "^1.1.0",
     "twitter": "^1.2.0"
   },
